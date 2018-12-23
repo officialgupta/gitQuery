@@ -2,17 +2,17 @@
 A minimal CLI app to query GitHub users.
 
 ## Installation
-    go get github.com/officialgupta/gitgo
+    go get github.com/officialgupta/gitQuery
 Can make global by:
 
-    go install gitgo
+    go install gitQuery
 
 ## Usage
 - Help:
 
     ```
-    $ gitgo
-    Usage: gitgo [options]
+    $ gitQuery
+    Usage: gitQuery [options]
     Options:
         -u, --user string
             Search Users
@@ -21,7 +21,7 @@ Can make global by:
 - Single User Query:
 
     ```
-    $ gitgo -u officialgupta
+    $ gitQuery -u officialgupta
     Searching user(s): [officialgupta]
     Username:        officialgupta
     Name:            Mayank Gupta
@@ -32,7 +32,7 @@ Can make global by:
 - Multi-User Query:
 
     ```
-    $ gitgo -u pmbenjamin,defunkt                                                                                                                                    
+    $ gitQuery -u pmbenjamin,defunkt                                                                                                                                    
     Searching user(s): [officialgupta abakhai]
     Username:        officialgupta
     Name:            Mayank Gupta
