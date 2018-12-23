@@ -32,7 +32,7 @@ Can make global by:
 - Multi-User Query:
 
     ```
-    $ gitQuery -u pmbenjamin,defunkt                                                                                                                                    
+    $ gitQuery -u officialgupta,abakhai                                                                                                                                    
     Searching user(s): [officialgupta abakhai]
     Username:        officialgupta
     Name:            Mayank Gupta
